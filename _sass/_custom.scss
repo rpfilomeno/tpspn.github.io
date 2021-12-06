@@ -1,0 +1,100 @@
+.page-content{
+  margin-top: 15%;
+}
+
+.page-content .wrapper {
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+
+
+
+@font-face {
+  font-family: 'c';
+  src: url('https://mntn-dev.github.io/_/chicagoflf.ttf') format('truetype');
+}
+
+::selection {
+  background: aquamarine;
+  color: white;
+}
+
+::-webkit-selection {
+  background: aquamarine;
+  color: white;
+}
+
+::-moz-selection {
+  background: aquamarine;
+  color: white;
+}
+
+body {
+  background: lightyellow;
+  color: mediumslateblue;
+}
+
+* {
+  cursor: default;
+  font-family: c, monospace;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+#t {
+  position: relative;
+  bottom: 20%;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
+  visibility: hidden;
+  white-space: pre-wrap;
+}
+
+a {
+  color: mediumslateblue;
+  text-decoration: none;
+  border-bottom: 1px solid aquamarine;
+}
+
+code {
+  background: yellow;
+}
+
+.g {
+  color: #0f0;
+}
+
+.p {
+  color: pink;
+}
+
+/* t.js-related: */
+ins,
+del {
+  text-decoration: none;
+}
+
+s {
+  display: none;
+}
+
+kbd {
+  font-family: inherit;
+}
+
+.t-caret {
+  font-size: inherit;
+  color: magenta;
+}
+
+@media(max-width:800px) {
+  #t {
+    width: 400px;
+    margin-left: -200px;
+  }
+}
