@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "06 December 2021 Patch Notes"
-date:   2021-12-06 15:15:14 +0800
 categories: patch
 ---
 <span class="g">*</span> <ins><i class="material-icon">[PARTY]</i></ins> Lists Eligible for ballot raffle is currently set to “165”.

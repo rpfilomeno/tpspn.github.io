@@ -7,7 +7,7 @@ layout: default
     $(function(){
      $('#t').t({
       
-      delay:2,                   // start delay in seconds [default:0]
+      delay:10,                   // start delay in seconds [default:0]
       
       speed:50,                  // typing speed (ms) [default:50]
       speed_vary:false,          // 'human like' speed variation [default:false]
@@ -71,7 +71,7 @@ layout: default
     </script>
 <div id="t">
 {% for post in site.posts %}
-<ins>{{ post.title }}</ins>
+<ins>{{ post.title }}<ins>
 {{ post.content }}
 {% endfor %}
 </div>
